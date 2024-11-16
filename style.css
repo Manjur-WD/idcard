@@ -7,6 +7,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monoton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+.font-pirata {
+    font-family: "Pirata One", system-ui;
+}
+
 .font-roboto {
     font-family: "Roboto", sans-serif;
 }
@@ -23,7 +29,7 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -38,16 +44,16 @@ body {
     print-color-adjust: exact;
 }
 
-main{
+main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 20px;
 }
 
@@ -75,8 +81,8 @@ main{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .id-card-canvas-front figure span {
@@ -107,11 +113,11 @@ main{
     width: 150px;
     height: auto;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 50%;
     border: 5px solid rgb(255, 255, 255);
     -webkit-box-shadow: 0 0 2px rgb(0, 0, 0);
-            box-shadow: 0 0 2px rgb(0, 0, 0);
+    box-shadow: 0 0 2px rgb(0, 0, 0);
 }
 
 .image-container {
@@ -146,11 +152,11 @@ main{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: end;
+    -ms-flex-align: end;
+    align-items: end;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 
@@ -159,11 +165,11 @@ main{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 10px;
     margin-top: 25px;
 }
@@ -172,32 +178,33 @@ main{
     width: 15%;
 }
 
-.qr-big{
+.qr-big {
     width: 80%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 50%;
 }
 
-.qr-big .block{
+.qr-big .block {
     text-align: center;
 }
 
 .qr-big .block p {
     color: black;
 }
-.qr-big .block img{
+
+.qr-big .block img {
     color: black;
     width: 60%;
     margin: 0 auto;
 }
 
-.address address{
+.address address {
     font-size: 30px;
     padding: 25px;
     text-align: center;
@@ -205,11 +212,15 @@ main{
     color: white;
 }
 
-.id-sidebar{
+.id-card-canvas-back.id-2{
+    background-color: goldenrod;
+}
+
+.id-sidebar {
     background-color: whitesmoke;
 }
 
-.id-sidebar ul li a{
+.id-sidebar ul li a {
     text-decoration: none;
     display: block;
     text-align: center;
@@ -219,7 +230,40 @@ main{
     margin: 10px;
 }
 
-.id-sidebar ul li a:hover,.id-sidebar ul li a.active{
+.id-sidebar ul li a:hover,
+.id-sidebar ul li a.active {
     background-color: aquamarine;
 }
 
+
+.id-card2-tagline {
+    font-size: 14px;
+    color: rgb(196, 146, 21);
+}
+
+.bottom-id2 {
+    background-color: rgb(199, 151, 29);
+    height: 100%;
+}
+
+.person-id-2 {
+    width: 100px;
+}
+
+.id-2 .logos img {
+    width: 50px;
+}
+
+
+.number-id-2 {
+    padding: 3px 15px;
+}
+
+.hashtags span {
+    font-size: 12px;
+}
+
+.backtop{
+    height: 250px;
+    background-color: white;
+}

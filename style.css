@@ -1,13 +1,13 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monoton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+
+.font-mont{
+    font-family: "Montserrat", sans-serif;
+}
 
 .font-pirata {
     font-family: "Pirata One", system-ui;
@@ -24,6 +24,8 @@
 .font-monoton {
     font-family: "Monoton", sans-serif;
 }
+
+
 
 * {
     margin: 0;
@@ -212,7 +214,7 @@ main {
     color: white;
 }
 
-.id-card-canvas-back.id-2{
+.id-card-canvas-back.id-2 {
     background-color: goldenrod;
 }
 
@@ -263,7 +265,45 @@ main {
     font-size: 12px;
 }
 
-.backtop{
+.backtop {
     height: 250px;
     background-color: white;
+}
+
+
+.id-card-canvas-front.id-3 {
+    background: url(./assets/id-3-front.png) no-repeat top/cover;
+    padding: 1rem;
+    position: relative;
+}
+
+
+.id-card-canvas-back.id-3 {
+    background: url(./assets/id-3-back.png) no-repeat center/cover;
+    padding: 1rem;
+    position: relative;
+}
+
+.id-3 .logos img{
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.sport-assoc{
+    font-size: 14px;
+}
+
+.chinese{
+    font-size: 12px;
+}
+
+.id3-address,.id3-delegation{
+    color: white;
+    font-size: 14px;
+}
+
+.id-3-number{
+    text-align: center;
+    letter-spacing: 8px;
 }

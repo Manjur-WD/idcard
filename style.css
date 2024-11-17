@@ -4,9 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
-.font-mont{
+
+.font-mont {
     font-family: "Montserrat", sans-serif;
+}
+
+.font-handle {
+    font-family: "Handlee", cursive;
 }
 
 .font-pirata {
@@ -284,26 +290,125 @@ main {
     position: relative;
 }
 
-.id-3 .logos img{
+.id-3 .logos img {
     width: 50px;
-    border-radius: 50%;
-    
+
 }
 
-.sport-assoc{
+.fs-small {
+    font-size: 10px;
+}
+
+
+.sport-assoc {
     font-size: 14px;
 }
 
-.chinese{
+.chinese {
     font-size: 12px;
 }
 
-.id3-address,.id3-delegation{
+.id3-address,
+.id3-delegation {
     color: white;
     font-size: 14px;
 }
 
-.id-3-number{
+.id-3-number {
     text-align: center;
     letter-spacing: 8px;
+}
+
+.id-card-canvas-front.id-4 {
+    background: url(./assets/id-4.png) no-repeat top/cover;
+    padding: 1rem;
+    position: relative;
+}
+
+
+.id-card-canvas-back.id-4 {
+    background: url(./assets/id-4.png) no-repeat center/cover;
+    padding: 1rem;
+    position: relative;
+}
+
+.name-id-4::before {
+    content: "";
+    background-color: #ffc107;
+    height: 10px;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 10px;
+}
+
+.details-id-4::after {
+    content: "";
+    background-color: #ffc107;
+    height: 10px;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.details-id-4 {
+    position: relative;
+    top: -14px;
+}
+
+.id-card-canvas-front.id-5 {
+    background: url(./assets/id-5.png) no-repeat center/cover;
+    padding: 1rem;
+    position: relative;
+}
+
+
+.id-card-canvas-back.id-5 {
+    background: url(./assets/id-5\ back.png) no-repeat center/cover;
+    padding: 1rem;
+    position: relative;
+}
+
+.logo-id-5 {
+    display: block;
+    width: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.person-id-5 {
+    width: 130px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #00BF63;
+    border-radius: 50%;
+}
+
+.id-card-canvas-front.id-6 {
+    background: url(./assets/id-6frint.png) no-repeat top/cover;
+    padding: 1rem;
+    position: relative;
+}
+
+
+.id-card-canvas-back.id-6 {
+    background: url(./assets/id-6back.png) no-repeat center/cover;
+    padding: 1rem;
+    position: relative;
+}
+
+.logo-6 {
+    width: 50px;
+}
+
+.person-6 {
+    width: 130px;
+    border: 5px solid #f4d35e;
+    border-radius: 50%;
+    margin: 0 auto;
 }

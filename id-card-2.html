@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Id Card 2</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -26,12 +23,13 @@
             <li><a href="id-card-5.html">Id card 5</a></li>
             <li><a href="id-card-6.html">Id card 6</a></li>
         </ul>
-        <button onclick="downloadPDF()" class="btn btn-primary print"><i class="ri-printer-fill"></i>Print ID Card</button>
+        <button onclick="downloadPDF()" class="btn btn-primary print"><i class="ri-printer-fill"></i>Print ID
+            Card</button>
     </aside>
     <main>
         <div class="id-card-canvas-front id-2 p-0 overflow-hidden">
             <div class="top">
-                <div class="logos d-flex align-items-center justify-content-center gap-2 pt-4">
+                <div class="logos d-flex align-items-center justify-content-center gap-2 pt-3">
                     <img src="./card-1/images (1).jfif" alt="logo" class="logo">
                     <img src="./card-1/images.jfif" alt="logo" class="logo">
                     <img src="./card-1/Sanchin-Karate-logo-300x226-1.jpg" alt="logo" class="logo">
@@ -48,26 +46,58 @@
 
             </div>
             <div class="bottom-id2 py-3 px-4">
-                <div class="row bg-white rounded-3">
+                <div class="row bg-white rounded-3 p-2">
                     <div class="col-md-7">
-                        <p class="name text-start font-roboto fs-6 fw-bold text-uppercase">Santosh Kumar Agarwal</p>
-                        <figure>
-                            <img src="./card-1/flag-india-removebg-preview.png" alt="flag" class="flag"><span
-                                class="country-name font-bebas text-dark">INDIA</span>
-                        </figure>
-                        <p class="designation-id-2 font-roboto text-uppercase pt-5">
+                        <p class="name text-start font-roboto fs-6 fw-bold text-uppercase mb-1">Santosh Kumar Agarwal
+                        </p>
+
+                        <p class="designation-id-2 font-roboto text-uppercase">
                             national president
                         </p>
+
+                        <div class="font-bebas">
+                            <p class="m-0"><i class="ri-weight-fill"></i>
+                                57KG</p>
+                            <p class="m-0"><i class="ri-calendar-2-line"></i>DOB :
+                                dd/mm/yr
+                            </p>
+                            <p class="m-0"><i class="ri-menu-search-fill"></i>STYLE :
+                                abcd
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-5 pt-2 text-end">
-                        <img src="./card-1/person.jpg" alt="person" class="person-id-2 img-fluid pb-4">
-                        <div class="qr-code-id-2"><img src="./card-1/gr-big.jpg" alt="qr-code" class="img-fluid"></div>
+                    <div class="col-md-5 text-end">
+                        <img src="./card-1/person.jpg" alt="person" class="person-id-2 img-fluid">
+                        <figure class="text-center mt-2">
+                            <img src="./card-1/flag-india-removebg-preview.png" alt="flag" class="flag ms-4"><span
+                                class="country-name font-bebas text-dark fs-5 ">INDIA</span>
+                        </figure>
+
+                    </div>
+                    <div class="col-12 numbering-id-2 ">
+                        <ul class="list-unstyled m-0 d-flex gap-2 justify-content-center font-bebas">
+                            <li class="active">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                        </ul>
                     </div>
                 </div>
 
-                <p class="vip-or-not text-center ps-4 mt-2">
-                    <span class="text-uppercase fs-1 fw-bold text-white font-roboto ms-5">VIP</span>
-                    <span class="bg-danger ms-5 fs-2 text-white  rounded-circle fw-bold number-id-2">3</span>
+                <div class="vip-or-not text-center ps-4 mt-1 d-flex justify-content-around pe-5 py-2">
+                    <div class="qr-code-id-2"><img src="./card-1/gr-big.jpg" alt="qr-code" class="img-fluid" width="80">
+                    </div>
+                    <span class="text-uppercase fs-1 fw-bold text-white font-roboto">VIP</span>
+                    <span class="bg-danger fs-2 text-white  rounded-circle fw-bold number-id-2">3</span>
+                </div>
+
+                <p class="font-bebas text-center m-0"><i class="ri-map-pin-range-fill"></i>VENUE : <span>EDEN
+                        GARDEN</span>
                 </p>
 
                 <div class="hashtags font-roboto fw-bold text-white">

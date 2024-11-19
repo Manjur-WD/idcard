@@ -5,14 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Id Card 1</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
 </head>
 
@@ -26,12 +24,13 @@
             <li><a href="id-card-5.html">Id card 5</a></li>
             <li><a href="id-card-6.html">Id card 6</a></li>
         </ul>
-        <div  class="text-center">
-            <button onclick="downloadPDF()" class="btn btn-primary print"><i class="ri-printer-fill"></i>Print ID Card</button>
+        <div class="text-center">
+            <button onclick="downloadPDF()" class="btn btn-primary print"><i class="ri-printer-fill"></i>Print ID
+                Card</button>
         </div>
     </aside>
     <main>
-        
+
         <div class="id-card-canvas-front id-1">
             <figure>
                 <img src="./card-1/flag-india-removebg-preview.png" alt="flag" class="flag"><span
@@ -39,19 +38,52 @@
             </figure>
             <p class="year font-monoton">2024</p>
             <p class="organization-name font-roboto">USA Open & Junor International Cup</p>
-            <div class="image-container">
-                <!-- This image should be square in size -->
-                <img src="./card-1/person.jpg" alt="person" class="person-image">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./card-1/qr.jpg" alt="qr image" class="qr-code">
+                </div>
+                <div class="col-6">
+                    <div class="image-container text-center">
+                        <!-- This image should be square in size -->
+                        <img src="./card-1/person.jpg" alt="person" class="person-image id-first">
+                    </div>
+                </div>
+                <div class="col-3 font-roboto text-white dob-weight">
+                    <p class="m-0"><i class="ri-weight-fill"></i>
+                        57KG</p>
+                    <p class="m-0"><i class="ri-calendar-2-line"></i>DOB : <br>
+                        dd/mm/yr
+                    </p>
+                    <p><i class="ri-menu-search-fill"></i>STYLE : <br>
+                        abcd
+                    </p>
+                </div>
             </div>
             <div class="name-designation">
                 <p class="name font-bebas m-0">KUMAR SHIV</p>
                 <p class="desig font-roboto m-0">ATHLETE</p>
             </div>
+
+            <div class="numbering-id-1 mt-2">
+                <ul class="list-unstyled d-flex gap-2 justify-content-center font-bebas">
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                </ul>
+            </div>
             <div class="barcode-qr">
-                <img src="./card-1/qr.jpg" alt="qr image" class="qr-code">
                 <img src="./card-1/illustrator-of-barcode-vector.jpg" alt="barcode" class="barcode">
             </div>
-            <div class="multi-brand-logos">
+            
+            <p class="font-bebas text-center m-0"><i class="ri-map-pin-range-fill"></i>VENUE : <span>EDEN GARDEN</span>
+            </p>
+            <div class="multi-brand-logos mt-1">
                 <img src="./card-1/images (1).jfif" alt="brand-logo" class="logo">
                 <img src="./card-1/images.jfif" alt="brand-logo" class="logo">
                 <img src="./card-1/Sanchin-Karate-logo-300x226-1.jpg" alt="brand-logo" class="logo">
@@ -59,27 +91,13 @@
             </div>
         </div>
         <div class="id-card-canvas-back id-1">
-            <div class="qr-big">
-                <div class="block font-bebas">
-                    <p class="mb-2">MAAPP OVERVIEW</p>
-                    <img src="./card-1/gr-big.jpg" alt="qr" class="qr-code-back">
-                </div>
-                <div class="block font-bebas">
-                    <p class="mb-2">REPORT A CONCERN</p>
-                    <img src="./card-1/gr-big.jpg" alt="qr" class="qr-code-back">
-                </div>
-            </div>
-            <div class="address">
-                <address class="font-bebas fst-italic">
-                    Las Vegas , NV
-                </address>
-            </div>
+
         </div>
     </main>
 
-    
-  <script src="main.js"></script>
-    
+
+    <script src="main.js"></script>
+
 </body>
 
 </html>
